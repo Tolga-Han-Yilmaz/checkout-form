@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Check-out Form</title>
+  </head>
+  <body>
+    <h2>Checkout</h2>
+    <aside>
+      <div class="images">
+        <div class="img_bag">
+          <img src="./img/photo1.png" alt="bag" />
+          <div class="img_text">
+            <h5>Vintage Backbag</h5>
+            <p class="p_price">$54.99 <del>$94.99</del></p>
+            <div class="price">
+              <p>-</p>
+              <p>1</p>
+              <p>+</p>
+            </div>
+          </div>
+        </div>
+        <div class="img_shoes">
+          <img src="./img/photo2.png" alt="shoes" />
+          <div class="img_text">
+            <h5>Levi Shoes</h5>
+            <p class="p_price">$74.99 <del>$124.99</del></p>
+            <div class="price">
+              <p>-</p>
+              <p>1</p>
+              <p>+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tables">
+        <div class="up_table table">
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <div class="bottom_table table">
+          <p>Total</p>
+          <p>$148.98</p>
+        </div>
+      </div>
+      <!-- <table>
+        <tbody>
+          <tr>
+            <td>Shipping</td>
+            <td>$19</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$148.98</td>
+          </tr>
+        </tbody>
+      </table> -->
+    </aside>
+    <main>
+      <div class="container">
+        <form action="">
+          <h5>Contact Information</h5>
+          <label for="email">Email</label><br />
+          <div class="mail_div">
+            <i class="fa-solid fa-envelope"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email..."
+            />
+          </div>
+          <label for="phone">Phone</label><br />
+          <div class="phone_div">
+            <i class="fa-solid fa-phone"></i>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Enter your phone..."
+            />
+          </div>
+          <h5>Shopping Address</h5>
+          <label for="name">Full name</label><br />
+          <div class="name_div">
+            <i class="fa-solid fa-user"></i>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your full name..."
+            />
+          </div>
+          <label for="address">Address</label><br />
+          <div class="address_div">
+            <i class="fa-solid fa-house-chimney"></i>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Enter your address..."
+            />
+          </div>
+          <label for="city">City</label>
+          <div class="city_div">
+            <i class="fa-solid fa-city"></i>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Enter your city..."
+            />
+          </div>
+          <label for="country">Country</label>
+          <div class="country_div">
+            <i class="fa-solid fa-earth-europe"></i>
+            <select name="country" id="country">
+              <option value="tr">Turkey</option>
+              <option value="">Germany</option>
+              <option value="">USA</option>
+              <option value="">Canada</option>
+              <option value="">UK</option>
+            </select>
+          </div>
+          <label for="post">Post Code</label>
+          <div class="post_div">
+            <i class="fa-solid fa-envelopes-bulk"></i>
+            <input
+              type="text"
+              name="post"
+              id="post"
+              placeholder="Enter your postal code..."
+            />
+          </div>
+          <br />
+
+          <input type="checkbox" name="next" id="next" />
+          <label for="next">See this information next time</label>
+          <br />
+          <div class="button_div">
+            <button type="submit">Continue</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- 
+        
+        
+        
+        
+        
+     -->
+  </body>
+</html>

@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  aside {
+    width: 90%;
+    margin: auto;
+    // text-align: center;
+  
+    h5 {
+      font-size: 1.1rem;
+      opacity: 0.6;
+    }
+    img {
+      width: 124px;
+      border-radius: 0.6rem;
+    }
+    .p_price {
+      color: tomato;
+      font-size: 1.2rem;
+      del {
+        color: black;
+        font-size: 0.9rem;
+      }
+    }
+    .images {
+      .img_bag,
+      .img_shoes {
+        display: flex;
+  
+        margin: 1rem;
+      }
+    }
+    .img_text {
+      width: 150px;
+  
+      margin: 1rem 0 0 1rem;
+      line-height: 1.5rem;
+      .price {
+        margin-top: 1rem;
+        border: 1px solid grey;
+        border-radius: 0.2rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 4px 5px;
+        p {
+          font-weight: 900;
+        }
+      }
+    }
+    .tables {
+      .table {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid grey;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+      }
+      .up_table {
+        margin-top: 3rem;
+      }
+      // .bottom_table {
+      //   margin-bottom: 2rem;
+      // }
+    }
+  }
+  
+  main {
+    width: 90%;
+    margin: auto;
+    font-size: 1.1rem;
+    color: grey;
+    .container {
+      form {
+        h5 {
+          font-size: 1.2rem;
+          color: black;
+          opacity: 0.9;
+          margin: 2.5rem 0 1rem 0;
+        }
+        div {
+          border: 1px solid grey;
+          padding: 5px 0;
+          border-radius: 3px;
+          margin: 0.5rem 0;
+          align-items: center;
+        }
+        input {
+          border: none;
+          width: 90%;
+          &:focus {
+            outline: none;
+          }
+        }
+        #country {
+          border: none;
+        }
+        i {
+          margin: 0 0.5rem;
+          font-size: 1rem;
+        }
+        .button_div {
+          text-align: right;
+          border: none;
+          button {
+            background-color: tomato;
+            color: #fff;
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+          }
+        }
+        #next {
+          width: auto;
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 720px) {
+    body {
+      margin: auto;
+      display: block;
+      width: 70%;
+    }
+    aside {
+      width: 45%;
+      float: right;
+      margin-top: 2rem;
+    }
+    main {
+      width: 45%;
+      float: left;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+  
